@@ -1,0 +1,10 @@
+rm(list = ls())
+
+# lake names
+Lakenames <- c("Superior", "Michigan", "Huron", "Erie", "Ontario")
+
+# An environment local to the EchoNet2Fish package
+EchoEnv <- new.env(parent = emptyenv())
+
+
+save(list=ls(all=FALSE), file="C:/Users/dmwarner/Documents/projects/EchoNet2FishTO/data/misc.RData")
